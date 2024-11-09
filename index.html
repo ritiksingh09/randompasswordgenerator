@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <p>RANDOM  PASSWORD GENERATOR</p>
+        </div>
+        <div class="line">
+            
+        </div>
+        <div class="error" id="error">
+          
+        </div>
+        <div class="input">
+            <input type="text"   placeholder="Loading..." id="input1"  readonly>
+        </div>
+        <div class="input2" >
+            <input type="number" name="" id="input2" placeholder="Enter Password Length Here...">
+        </div>
+        <div class="checkbox-container">
+            <h3>Include At Least One Type <i class="ri-arrow-down-line"></i></h3>
+            <div class="checkbox-content">
+                <label for="check1">
+                <input type="checkbox" name="" id="check1">&nbsp Lowercase Alphabets <br></label>
+
+                <label for="check2">
+                <input type="checkbox" name="" id="check2">&nbsp Uppercase Alphabets <br></label>
+
+                <label for="check3">
+                <input type="checkbox" name="" id="check3">&nbsp Symbols <br> </label>
+
+                <label for="check4">
+                <input type="checkbox" name="" id="check4">&nbsp Number <br></label>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="btn">Generate Password</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
