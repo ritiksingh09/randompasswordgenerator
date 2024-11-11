@@ -123,3 +123,321 @@ input:focus{
 .btn button:hover{
    transform: scaleX(1.2);
 }
+
+
+@media(max-width:1088px){
+
+    .heading p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    .input2 input{
+        font-size:0.7rem ;
+        padding-right: 14px;
+    }
+   .btn button{
+    width: 40%;
+    height: 40px;
+    margin-right: 13px;
+    }
+    .input input{
+    
+        font-size: 1rem;
+        width: 80%;
+        height: 35px;
+        opacity: 0.5;
+        margin-top: 40px;
+        margin-left: 50px;
+        font-family:"Kode Mono",serif;
+        font-style: italic;
+       padding-left: 50px;
+    
+    }
+}
+
+@media(max-width:945px){
+    .btn button{
+        width: 43%;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+    .heading p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .checkbox-container{
+        width: 63%;
+    
+        height: 33vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 90px;
+        box-shadow: 6px 6px 8px black;
+    }
+    .error{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 12px;
+    }
+
+}
+
+@media(max-width:896px){
+    .input2 input{
+        font-size:0.6rem ;
+        padding-right: 14px;
+    }
+    .checkbox-container{
+        width: 69%;
+    
+        height: 37vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 60px;
+        box-shadow: 6px 6px 8px black;
+    
+}
+        .btn button{
+                 width: 43%;
+                 margin-top: 40px;
+                 margin-left: 100px;
+            }
+}
+
+@media (max-width:823px){
+    .input2 input{
+        font-size:0.5rem ;
+        padding-right: 14px;
+        margin-left: 70px;
+    }
+    .checkbox-container{
+        width: 72%;
+    
+        height: 37vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 60px;
+        box-shadow: 6px 6px 8px black;
+    
+}
+    .heading p{
+         text-align: center;
+         margin-top: 20px;
+         font-size: 0.8rem;
+}
+
+    .checkbox-content{
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .btn button{
+        margin-left: 100px;
+    }
+    .input input{
+    
+        font-size: 1.5rem;
+        width: 80%;
+        height: 35px;
+        opacity: 0.5;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-family:"Kode Mono",serif;
+        font-style: italic;
+       padding-left: 70px;
+    
+    }
+    .error{
+        text-align: center;
+        font-size: 0.6rem;
+        margin-top: 12px;
+    }
+}
+@media (max-width:783px){
+    .checkbox-content{
+        padding-left: 20px;
+
+    }
+    .checkbox-container{
+        width: 77%;
+    
+        height: 37vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 40px;
+        box-shadow: 6px 6px 8px black;
+    }
+    .input input{
+        font-size: 1rem;
+        width: 80%;
+        height: 35px;
+        opacity: 0.5;
+        margin-top: 40px;
+        margin-left: 30px;
+        font-family:"Kode Mono",serif;
+        font-style: italic;
+       padding-left: 70px;
+    }
+    .input2 input{
+        font-size:0.5rem ;
+        padding-right: 14px;
+        margin-left: 50px;
+    }
+    .btn button{
+        margin-left: 90px;
+    }
+}
+@media (max-width:768px){
+    .checkbox-content{
+        padding-left: 20px;
+
+    }
+    .checkbox-container{
+        width: 77%;
+    
+        height: 37vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        box-shadow: 6px 6px 8px black;
+    }
+    .input input{
+        font-size: 1rem;
+        width: 80%;
+        height: 35px;
+        opacity: 0.5;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-family:"Kode Mono",serif;
+        font-style: italic;
+       padding-left: 30px;
+    }
+    .input2 input{
+        font-size:0.5rem ;
+        padding-right: 14px;
+        margin-left: 50px;
+    }
+    .btn button{
+        margin-left: 90px;
+    }
+}
+@media (max-width:623px){
+    .error{
+        text-align: center;
+        font-size: 0.4rem;
+        margin-top: 12px;
+    }
+    .input2 input{
+        font-size:0.5rem ;
+      padding-left: 12px;
+        margin-left: 45px;
+    }
+    .input input{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:544px){
+    .btn button{
+        margin-left: 50px;
+    }
+    .heading p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.6rem;
+    }
+
+    .checkbox-container{
+        width: 77%;
+    
+        height: 35vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 20px;
+        box-shadow: 6px 6px 8px black;
+    }
+}
+
+@media (max-width:487px){
+    .checkbox-container{
+        width: 77%;
+    
+        height: 39vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 20px;
+        box-shadow: 6px 6px 8px black;
+    }
+    .input2 input{
+        font-size:0.4rem ;
+      padding-left: 12px;
+        margin-left: 35px;
+    }
+    .input input{
+        padding-left: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:425px){
+
+    .checkbox-content{
+        padding-left: 20px;
+        font-size: 10px;
+
+    }
+    .heading p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.5rem;
+    }
+    .checkbox-container{
+        width: 77%;
+    
+        height: 40vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        /* margin-top: 20px; */
+        margin-left: 20px;
+        box-shadow: 6px 6px 8px black;
+    }
+    .input input{
+        font-size: 1rem;
+        width: 80%;
+        height: 25px;
+        opacity: 0.5;
+        /* margin-top: 10px; */
+        margin-left: 20px;
+        font-family:"Kode Mono",serif;
+        font-style: italic;
+       padding-left: 30px;
+    }
+    .input2 input{
+        font-size:0.5rem ;
+        padding-right: 14px;
+        margin-left: 30px;
+    }
+    .btn button{
+        margin-left: 50px;
+    }
+}
+@media (max-width:395px){
+    .checkbox-container{
+        width: 77%;
+    
+        height: 45vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 20px;
+        box-shadow: 6px 6px 8px black;
+    }
+}
