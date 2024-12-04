@@ -50,7 +50,7 @@ body{
 }
 .input input{
     
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 80%;
     height: 35px;
     opacity: 0.5;
@@ -58,7 +58,7 @@ body{
     margin-left: 50px;
     font-family:"Kode Mono",serif;
     font-style: italic;
-   padding-left: 30px;
+   padding-left: 20px;
 
 }
 .input2 input{
@@ -71,11 +71,11 @@ body{
     margin-left: 90px;
     font-family:"Kode Mono",serif;
     font-style: italic;
-   padding-left: 30px;
+   padding-left: 20px;
 }
 input2::placeholder{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family:"Kode Mono",serif;
     font-style: italic;
     color: black;
