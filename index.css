@@ -50,7 +50,7 @@ body{
 }
 .input input{
     
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 80%;
     height: 35px;
     opacity: 0.5;
@@ -62,7 +62,7 @@ body{
 
 }
 .input2 input{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     width: 60%;
     
     height: 35px;
